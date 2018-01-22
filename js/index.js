@@ -2,9 +2,9 @@
 * @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
 * @Date:   2017-12-27 20:49:56
 * @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
-* @Last Modified time: 2018-01-01 23:50:36
+* @Last Modified time: 2018-01-02 09:53:11
 */
-window.onload=function(){
+{
 var banners=document.querySelectorAll(".img-box li");
 var pargers=document.querySelectorAll(".btn-box li");
 var box=document.querySelector(".banner");
@@ -109,10 +109,7 @@ banners.forEach(function(ele,index){
 		dpRight.classList.remove("active");
 		dpLeft.classList.add("active");
 		dpList.style.transform="translateX(0)";
-
 		}
-
-
 	}
 	var st=setInterval(danpinFn,2000);
 	dpbox.onmouseover=function(){
@@ -201,4 +198,38 @@ banners.forEach(function(ele,index){
     };
     }
 
+}
+{
+    // 小米头部。。
+    let logft=document.getElementsByClassName('logft');
+    let logft2=document.querySelector('.logft2');
+
+    let box3=document.getElementsByClassName('daohangtext');
+    let dbmov=document.querySelector('.boxcenter');
+    dbmov.onmouseenter=function(){
+        logft2.style.height='229px';
+
+    }
+    dbmov.onmouseleave=function(){
+        logft2.style.height='0px';
+
+    }
+    for(let i=0;i<logft.length;i++){
+
+        box3[i].onmousemove=function(){
+            logft[i].style.display='block';
+        }
+        box3[i].onmouseout=function(){
+            logft[i].style.display='none';
+        }
+    }
+    for(let i=0;i<logft.length;i++){
+
+        logft[i].onmousemove=function(){
+            logft[i].style.display='block';
+        }
+        logft[i].onmouseout=function(){
+            logft[i].style.display='none';
+        }
+    }
 }

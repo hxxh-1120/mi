@@ -372,6 +372,7 @@
 	height: 40px;
 	background: #424242;
 	float: right;
+	cursor: pointer;
 }
 .shopcar{
 	width: 20px;
@@ -1406,6 +1407,141 @@ li:hover i{
 	z-index: 1;
 	opacity: 1;
 }
+.logft{
+	width: 100%;
+	height: 229px;
+	background: #fff;
+	position: absolute;
+	z-index: 999;
+	box-sizing: border-box;
+	 display: none;
+	overflow: hidden;
+	transition: all 0.5s;
+	/*display: none;*/
+
+	/* 229 */
+
+}
+.logft2{
+	width: 100%;
+	height: 0px;
+	background: #fff;
+	position: absolute;
+	z-index: 999;
+	box-sizing: border-box;
+	/* display: none; */
+	overflow: hidden;
+	transition: all 0.5s;
+
+
+	/* 229 */
+
+}
+.block{
+	display: block;
+}
+.none{
+	display: none;
+}
+.logft ul{
+	border-top: 1px solid rgb(224, 224, 224);
+	width: 100%;
+	height: 100%;
+	padding-left: 80px;
+
+}
+.logft2 ul{
+	border-top: 1px solid rgb(224, 224, 224);
+	width: 100%;
+	height: 100%;
+	padding-left: 80px;
+
+}
+.logft ul li{
+	width: 180px;
+	height: 200px;
+	float: left;
+	margin-top: -1px;
+}
+.logft2 ul li{
+	width: 180px;
+	height: 200px;
+	float: left;
+	margin-top: -1px;
+}
+.logft ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+	align-content: space-between;
+}
+.logft2 ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+	align-content: space-between;
+}
+.logft ul li a span{
+	display: block;
+
+	height: 20px;
+	border: 1px solid rgb(255, 103, 0);
+	padding: 1px 20px;
+	line-height: 16px;
+	color: rgb(255, 103, 0);
+}
+.logft2 ul li a span{
+	display: block;
+
+	height: 20px;
+	border: 1px solid rgb(255, 103, 0);
+	padding: 1px 20px;
+	line-height: 16px;
+	color: rgb(255, 103, 0);
+}
+.logft ul li a img{
+	display: block;
+	width: 160px;
+	height: 110px;
+
+}
+.logft2 ul li a img{
+	display: block;
+	width: 160px;
+	height: 110px;
+
+}
+.logft ul li a h1{
+	width: 100%;
+	color: rgb(51, 51, 51);
+	font-size: 12px;
+	text-align: center;
+}
+.logft2 ul li a h1{
+	width: 100%;
+	color: rgb(51, 51, 51);
+	font-size: 12px;
+	text-align: center;
+}
+.logft ul li a h2{
+	width: 100%;
+	color: rgb(255, 103, 0);
+	font-size: 12px;
+	text-align: center;
+}
+.logft2 ul li a h2{
+	width: 100%;
+	color: rgb(255, 103, 0);
+	font-size: 12px;
+	text-align: center;
+}
+
 
 
 
